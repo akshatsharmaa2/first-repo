@@ -1,0 +1,27 @@
+
+#forms{
+    position: relative;
+    width: 50%;
+    top: 5px;
+     border: none;
+     margin: auto;
+     height: 60%;
+     background-color: aliceblue; 
+}
+
+
+#submit{
+    position: relative;
+    left: 45%;
+    background-color: orange;
+    text-align: center;
+    border: none;
+    color: aliceblue;
+    display:flex ;
+    flex-direction: column;
+    
+
+}
+.bigimage{
+    height: 500px;
+}

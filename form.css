@@ -1,0 +1,38 @@
+input{
+    display: flex;
+    margin-left: 10px;
+    width: 95%;
+    padding: 10px;
+}
+label{
+    margin-left: 10px; ;
+
+}
+.formdiv{
+    position: relative;
+   width: 50%;
+   top: 50px;
+    border: solid orange;
+    margin: auto;
+    height: 80%;
+    background-color: aliceblue;  
+     
+}
+.sub{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+    background-color: orange;
+    color: aliceblue;
+    border: none;
+}
+.bgimage{
+   height: 700px;
+}
+
+.times{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+   
+}
