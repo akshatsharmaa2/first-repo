@@ -32,12 +32,34 @@ function onsubmit(e) {
    var ul=document.createElement("ul")
    var li=document.createElement("li")
    li.innerHTML=`${email}-${localStorage.getItem(email)}`
+
+   var del=document.createElement("button")
+   del.innerHTML="Delete"
+
+
+  
+
+   li.append(del);
+
+
+  
+
+  
+
    ul.append(li)
    //document.write(ul)
    var div=document.getElementById("div")
    div.append(ul) 
+
+   function deletenode() {
+    li.remove();
+    localStorage.removeItem(email)
+   }
+
+   del.addEventListener("click",deletenode)
     
 }
+
 
 
 //submit.addEventListener("click",detail)
